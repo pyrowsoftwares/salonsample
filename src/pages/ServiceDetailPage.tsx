@@ -93,7 +93,7 @@ export function ServiceDetailPage() {
 
           {/* Right Hero Image */}
           <div className="lg:col-span-5">
-            <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-xl border-4 border-[#FAF7F2]">
+            <div className="aspect-[16/10] lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-xl border-4 border-[#FAF7F2]">
               <ImageWithFallback
                 src={service.image}
                 alt={service.name}

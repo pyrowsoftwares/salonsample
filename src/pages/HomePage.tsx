@@ -129,7 +129,7 @@ export function HomePage() {
               <div className="relative mx-auto max-w-md lg:max-w-none">
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-2 border-[#34302D] relative group">
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=80"
+                    src="https://images.pexels.com/photos/8834098/pexels-photo-8834098.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=960&h=1200"
                     alt="Aurel Studio signature architectural cut and styling"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -195,14 +195,14 @@ export function HomePage() {
             <div className="lg:col-span-6 grid grid-cols-2 gap-4">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-md mt-8 border border-[#DED3C5]">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&q=80"
+                  src="https://images.pexels.com/photos/13068377/pexels-photo-13068377.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=600&h=800"
                   alt="Aurel Studio interior styling station"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-md border border-[#DED3C5]">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=800&q=80"
+                  src="https://images.pexels.com/photos/7752412/pexels-photo-7752412.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=600&h=800"
                   alt="Aurel Studio French balayage result"
                   className="w-full h-full object-cover"
                 />
@@ -488,20 +488,35 @@ export function HomePage() {
               <Link
                 key={look.id}
                 to="/gallery"
-                className="group relative aspect-[4/5] rounded-2xl overflow-hidden shadow-xs hover:shadow-md transition-all border border-[#DED3C5]"
+                className="group relative aspect-[4/5] rounded-2xl overflow-hidden shadow-xs hover:shadow-xl transition-all border border-[#DED3C5]"
               >
                 <ImageWithFallback
                   src={look.image}
                   alt={look.alt}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#241E1A]/85 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-4 sm:p-5 flex flex-col justify-end text-[#F6F2EB]">
-                  <span className="text-[10px] uppercase tracking-widest text-[#A87556] font-semibold">
+
+                {/* Always-visible top category badge */}
+                <div className="absolute top-3 left-3 z-10">
+                  <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[9px] sm:text-[10px] font-sans font-semibold tracking-wider uppercase bg-[#241E1A]/80 backdrop-blur-md text-[#FAF7F2] border border-white/10 shadow-xs">
                     {look.categoryLabel}
                   </span>
-                  <p className="font-serif text-sm sm:text-base font-medium line-clamp-1">
+                </div>
+
+                {/* Permanent gradient overlay with always-visible title and hover info */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1E1916]/95 via-[#1E1916]/30 to-transparent p-3.5 sm:p-5 flex flex-col justify-end text-[#F6F2EB] transition-all duration-300">
+                  <h4 className="font-serif text-sm sm:text-base font-medium line-clamp-1 group-hover:text-[#E8C5A5] transition-colors">
                     {look.title}
-                  </p>
+                  </h4>
+                  <div className="max-h-0 opacity-0 group-hover:max-h-24 group-hover:opacity-100 transition-all duration-300 ease-out overflow-hidden">
+                    <p className="text-[11px] sm:text-xs text-[#DED3C5]/90 font-sans mt-1 line-clamp-1">
+                      {look.description}
+                    </p>
+                    <span className="mt-2 inline-flex items-center gap-1 text-[10px] sm:text-[11px] text-[#A87556] font-semibold">
+                      <span>Explore Look</span>
+                      <ArrowUpRight className="w-3 h-3" />
+                    </span>
+                  </div>
                 </div>
               </Link>
             ))}
@@ -594,7 +609,7 @@ export function HomePage() {
               <div className="lg:col-span-6">
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-xl border-4 border-[#F6F2EB]">
                   <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80"
+                    src="https://images.pexels.com/photos/12708653/pexels-photo-12708653.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=960&h=1200"
                     alt="Bridal artistry model at Aurel Studio"
                     className="w-full h-full object-cover"
                   />

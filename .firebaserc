@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "samplesalon-9da61"
+  },
+  "targets": {
+    "samplesalon-9da61": {
+      "hosting": {
+        "samplesalon": [
+          "samplesalon"
+        ]
+      }
+    }
+  }
+}

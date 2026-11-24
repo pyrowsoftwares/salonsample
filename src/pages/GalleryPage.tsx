@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { X, ChevronLeft, ChevronRight, Sparkles, Filter, Maximize2 } from "lucide-react";
+import { Link } from "react-router-dom";
+import { X, ChevronLeft, ChevronRight, Sparkles, Filter, Maximize2, ArrowUpRight } from "lucide-react";
 import { galleryItems, GalleryItem } from "../data/gallery";
 import { ImageWithFallback } from "../components/ImageWithFallback";
 
@@ -119,7 +120,7 @@ export function GalleryPage() {
               <div
                 key={item.id}
                 onClick={() => setSelectedItemIndex(index)}
-                className="group relative aspect-[4/5] rounded-2xl overflow-hidden cursor-pointer bg-[#FAF7F2] border border-[#DED3C5] shadow-xs hover:shadow-lg transition-all"
+                className="group relative aspect-[4/5] rounded-2xl overflow-hidden cursor-pointer bg-[#FAF7F2] border border-[#DED3C5] hover:border-[#A87556] shadow-xs hover:shadow-xl transition-all"
                 role="button"
                 tabIndex={0}
                 onKeyDown={(e) => {
@@ -136,18 +137,46 @@ export function GalleryPage() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
 
-                {/* Overlay on hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#241E1A]/85 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end text-[#F6F2EB]">
-                  <span className="text-[10px] uppercase tracking-widest text-[#A87556] font-semibold mb-1">
+                {/* Always-visible category badge */}
+                <div className="absolute top-3.5 left-3.5 z-10">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10px] font-sans font-semibold tracking-wider uppercase bg-[#241E1A]/80 backdrop-blur-md text-[#FAF7F2] border border-white/10 shadow-xs">
+                    <Sparkles className="w-2.5 h-2.5 text-[#A87556]" />
                     {item.categoryLabel}
                   </span>
-                  <p className="font-serif text-xl font-medium">{item.title}</p>
-                  <p className="text-xs text-[#DED3C5]/90 font-sans mt-1 line-clamp-2">
-                    {item.description}
-                  </p>
-                  <div className="mt-3 flex items-center gap-1 text-[11px] text-[#A87556] font-semibold">
-                    <Maximize2 className="w-3 h-3" />
-                    <span>Click to view full screen</span>
+                </div>
+
+                {/* Permanent gradient overlay: Look title always visible, extra details & actions revealed on hover */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1E1916]/95 via-[#1E1916]/40 to-transparent p-5 sm:p-6 flex flex-col justify-end text-[#F6F2EB] transition-all duration-300">
+                  <div className="space-y-1">
+                    <span className="text-[10px] uppercase font-sans tracking-widest text-[#A87556] font-semibold block">
+                      Aurel Signature
+                    </span>
+                    <h3 className="font-serif text-lg sm:text-xl font-medium leading-snug group-hover:text-[#E8C5A5] transition-colors">
+                      {item.title}
+                    </h3>
+                  </div>
+
+                  {/* Additional content shown on hover ("if I come there add any other to show") */}
+                  <div className="max-h-0 opacity-0 group-hover:max-h-48 group-hover:opacity-100 transition-all duration-500 ease-out overflow-hidden">
+                    <p className="text-xs text-[#DED3C5]/90 font-sans mt-2.5 line-clamp-2 leading-relaxed">
+                      {item.description}
+                    </p>
+
+                    <div className="mt-4 pt-3 border-t border-white/15 flex items-center justify-between gap-2">
+                      <span className="inline-flex items-center gap-1.5 text-[11px] text-[#A87556] font-semibold group-hover:text-[#E8C5A5]">
+                        <Maximize2 className="w-3.5 h-3.5" />
+                        <span>Tap to enlarge</span>
+                      </span>
+
+                      <Link
+                        to="/book"
+                        onClick={(e) => e.stopPropagation()}
+                        className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-[10px] uppercase tracking-wider font-semibold bg-[#A87556] text-[#FAF7F2] hover:bg-[#8D5F43] transition-colors shadow-xs"
+                      >
+                        <span>Book Style</span>
+                        <ArrowUpRight className="w-3 h-3" />
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

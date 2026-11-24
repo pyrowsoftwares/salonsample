@@ -57,21 +57,21 @@ export function BridalPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-md">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80"
+              src="https://images.pexels.com/photos/12708653/pexels-photo-12708653.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=1000"
               alt="Traditional South Indian bride with poola jada and temple jewelry"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-md md:mt-8">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+              src="https://images.pexels.com/photos/20708571/pexels-photo-20708571.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=1000"
               alt="Contemporary evening bridal reception styling"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-md">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80"
+              src="https://images.pexels.com/photos/28941551/pexels-photo-28941551.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=1000"
               alt="Detailed bridal makeup and radiant complexion"
               className="w-full h-full object-cover"
             />

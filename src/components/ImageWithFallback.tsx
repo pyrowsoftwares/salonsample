@@ -21,6 +21,7 @@ export function ImageWithFallback({
         <img
           src={src}
           alt={alt}
+          referrerPolicy="no-referrer"
           className={`w-full h-full object-cover transition-transform duration-700 hover:scale-105 ${className || ""}`}
           loading="lazy"
           onError={() => setHasError(true)}

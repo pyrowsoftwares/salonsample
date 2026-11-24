@@ -16,7 +16,7 @@ export const sampleTeamMembers: TeamMember[] = [
     role: "Artistic Director & Head Stylist",
     specialty: "Precision Architecture & Sculpted Bobs",
     bio: "Trained across London and Mumbai academies, Arjun specializes in face-shape calibration, dry precision texturing, and effortless low-maintenance silhouettes.",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.pexels.com/photos/6599030/pexels-photo-6599030.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=1000",
     experienceYears: "12+ years",
   },
   {
@@ -25,7 +25,7 @@ export const sampleTeamMembers: TeamMember[] = [
     role: "Senior Colour Specialist",
     specialty: "French Balayage & Dimensional Brunettes",
     bio: "A master of seamless colour transitions, Meera creates customized honey, mocha, and caramel ribbons that preserve hair cuticle integrity and require minimal touch-ups.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.pexels.com/photos/11555705/pexels-photo-11555705.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=1000",
     experienceYears: "9 years",
   },
   {
@@ -34,7 +34,7 @@ export const sampleTeamMembers: TeamMember[] = [
     role: "Bridal Artistry Director",
     specialty: "Traditional Muhurtham & Contemporary Receptions",
     bio: "Renowned for skin-first radiance and elaborate South Indian poola jada hair architecture, Kavitha designs timeless bridal looks that photograph impeccably in every light.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.pexels.com/photos/38281680/pexels-photo-38281680.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=1000",
     experienceYears: "10 years",
   },
   {
@@ -43,7 +43,7 @@ export const sampleTeamMembers: TeamMember[] = [
     role: "Master Barber & Scalp Specialist",
     specialty: "Precision Fades, Beard Sculpting & Trichology",
     bio: "Deepak merges classical barbering scissor craft with modern skin-tapering and therapeutic botanical scalp rituals designed for Chennai's tropical humidity.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.pexels.com/photos/9992819/pexels-photo-9992819.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=1000",
     experienceYears: "8 years",
   },
 ];

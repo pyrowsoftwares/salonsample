@@ -50,14 +50,14 @@ export function AboutPage() {
           <div className="lg:col-span-6 grid grid-cols-2 gap-4">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-md">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80"
+                src="https://images.pexels.com/photos/7195805/pexels-photo-7195805.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=1000"
                 alt="Aurel Studio consultation session"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-md mt-8">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+                src="https://images.pexels.com/photos/8834048/pexels-photo-8834048.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=1000"
                 alt="Stylist washing and hair treatment"
                 className="w-full h-full object-cover"
               />

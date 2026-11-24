@@ -35,7 +35,7 @@ export const serviceCategories: ServiceCategory[] = [
     shortName: "Haircuts",
     tagline: "Precision geometric cutting calibrated to your bone structure and natural hair density.",
     description: "Every cut begins with a dedicated face-shape, hair texture, and daily lifestyle consultation to create a contemporary, effortless silhouette.",
-    heroImage: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.pexels.com/photos/8834098/pexels-photo-8834098.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=1200&h=750",
     services: [
       {
         id: "womens-haircut",
@@ -48,7 +48,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "45–60 mins",
         shortDescription: "Tailored precision cut, scalp wash, and customized blow-dry finished to your bone structure.",
         fullDescription: "Our signature women's haircut is an architectural, consultation-first experience. We examine your natural hair growth patterns, density, and everyday styling routine to build shape, volume, and movement that stays fresh between visits.",
-        image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/3356170/pexels-photo-3356170.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Fine to coarse textures", "Curated layered looks", "Effortless bobs and long cascades", "Regular silhouette maintenance"],
         whatToExpect: [
           "10-minute one-on-one style and texture diagnosis",
@@ -77,7 +77,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "30–45 mins",
         shortDescription: "Clean scissor-over-comb and clipper detailing with a refreshing wash and tailored finish.",
         fullDescription: "Sharp lines, seamless fades, and textured crowns. Designed for modern professionals seeking clean silhouettes and effortless day-to-day upkeep.",
-        image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/9992819/pexels-photo-9992819.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Classic scissor work", "Modern tapers and fades", "Textured crops", "Business grooming"],
         whatToExpect: [
           "Consultation to match hairline and facial contours",
@@ -101,7 +101,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "35–45 mins",
         shortDescription: "Deep scalp cleanse followed by a voluminous, glossy blowout tailored for day or evening.",
         fullDescription: "A rejuvenating sensory wash paired with round-brush blowouts. Choose between sleek glass hair, bouncy Hollywood waves, or natural textured volume.",
-        image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/8834048/pexels-photo-8834048.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Special meetings", "Evenings out", "Post-work refresh", "Quick confidence lift"],
         whatToExpect: ["Invigorating dual-cleanse wash", "Conditioning treatment", "Blowout styling with round thermal brushes"],
         faqs: [
@@ -119,7 +119,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "60 mins",
         shortDescription: "Intricate updos, textured ponytails, or red-carpet waves crafted for memorable events.",
         fullDescription: "From modern minimalist chignons to voluminous textured curls, our occasion styling creates enduring silhouettes that withstand celebrations and photography.",
-        image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/19764064/pexels-photo-19764064.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Cocktails & galas", "Festive family gatherings", "Editorial photo sessions"],
         whatToExpect: ["Texture prep and thermal setting", "Sculpting, pin work, and finishing hold spray"],
         faqs: [
@@ -137,7 +137,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "20–30 mins",
         shortDescription: "Crisp outline definition, clipper length gradation, and conditioning beard elixir.",
         fullDescription: "Carefully calibrated beard sculpting to flatter your jawline. Finished with warm towel therapy and nourishing botanical beard oil.",
-        image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/32329615/pexels-photo-32329615.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Stubble maintenance", "Full beard shaping", "Mustache definition"],
         whatToExpect: ["Trimming to desired length gradient", "Razor-sharp cheek and neckline edging", "Hydrating oil massage"],
         faqs: [
@@ -153,7 +153,7 @@ export const serviceCategories: ServiceCategory[] = [
     shortName: "Color & Balayage",
     tagline: "Dimensional tone, luminous reflections, and deep respect for hair integrity.",
     description: "Using world-class ammonia-conscious formulas, our colour specialists craft nuanced hues that grow out seamlessly and maintain natural gloss.",
-    heroImage: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.pexels.com/photos/14730864/pexels-photo-14730864.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=1200&h=750",
     services: [
       {
         id: "balayage",
@@ -166,7 +166,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "180–240 mins",
         shortDescription: "Freehand hand-painted French balayage for soft, multi-dimensional, low-maintenance lightness.",
         fullDescription: "Our signature colour discipline. We hand-paint ribbons of light where the sun naturally hits your hair. Creates an organic, diffused transition with no harsh regrowth lines, allowing 4 to 6 months of effortless wear.",
-        image: "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/7752412/pexels-photo-7752412.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["First-time colour clients", "Low-maintenance lifestyles", "Sun-kissed caramel, mocha, and honey tones"],
         whatToExpect: [
           "Detailed consultation assessing skin undertone and hair porosity",
@@ -195,7 +195,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "90–120 mins",
         shortDescription: "Rich, seamless root-to-tip colour infusion with deep shine and complete grey coverage.",
         fullDescription: "A luxurious single-process colour tailored to your complexion. From velvety espresso and mahogany to rich copper and hazelnut.",
-        image: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/6568231/pexels-photo-6568231.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Complete tone transformations", "Flawless grey coverage", "Deepening natural tones"],
         whatToExpect: ["Custom shade blending", "Even root-to-tip application", "Conditioning rinse and colour lock treatment"],
         faqs: [
@@ -213,7 +213,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "120–150 mins",
         shortDescription: "Precision micro-foiling or classic weaving to introduce brightness, contrast, and depth.",
         fullDescription: "Fine foil work designed to add sparkling contrasts and dimension throughout your crown and face-framing perimeter.",
-        image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/29555682/pexels-photo-29555682.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Adding lightness around the face", "Creating multi-tonal depth", "Blending early greys"],
         whatToExpect: ["Weave or slice foil placement", "Gentle lift monitoring", "Neutralising gloss tone"],
         faqs: [
@@ -231,7 +231,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "60 mins",
         shortDescription: "Precise regrowth colour matching up to 1.5 inches of new hair growth.",
         fullDescription: "Seamlessly blends your regrowth with existing mid-lengths and ends, restoring a fresh, unified appearance.",
-        image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/6270123/pexels-photo-6270123.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Monthly grey regrowth maintenance", "Base shade upkeep"],
         whatToExpect: ["Accurate shade matching", "Clean scalp application", "Emulsification wash"],
         faqs: [
@@ -247,7 +247,7 @@ export const serviceCategories: ServiceCategory[] = [
     shortName: "Hair & Scalp Spa",
     tagline: "Restorative clinical wellness rituals that revive hair vitality from the root.",
     description: "Deep conditioning therapies and smoothing treatments designed to combat frizz, humidity, and chemical wear while strengthening hair cuticle health.",
-    heroImage: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.pexels.com/photos/7755473/pexels-photo-7755473.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=750",
     services: [
       {
         id: "keratin-treatment",
@@ -260,7 +260,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "150–210 mins",
         shortDescription: "Intensive keratin protein realignment to eliminate humidity frizz and restore mirror gloss.",
         fullDescription: "Chennai's coastal humidity is demanding on textured hair. Our advanced keratin treatment seals the outer cuticle layer with natural bio-keratins, cutting blow-dry time in half and delivering smooth, lustrous, manageable hair for months.",
-        image: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/17320162/pexels-photo-17320162.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Frizz-prone and rebellious hair", "Weather-sensitive curls", "Chemically damaged mid-lengths"],
         whatToExpect: [
           "Deep clarifying cleanse to open cuticle receptors",
@@ -288,7 +288,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "180 mins",
         shortDescription: "Gentle realignment formula providing sleek, naturally straight, fluid movement.",
         fullDescription: "A gentle smoothing solution that tames coarse texture into silky, touchable straight hair with lasting manageability.",
-        image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/13469411/pexels-photo-13469411.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Coarse, wavy, or unruly hair", "Those seeking a sleek, polished everyday look"],
         whatToExpect: ["Texture diagnosis", "Smoothening cream infusion", "Thermal press and neutralizing bath"],
         faqs: [
@@ -306,7 +306,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "45–60 mins",
         shortDescription: "Acupressure scalp massage with essential oils, warm steam infusion, and deep mask.",
         fullDescription: "A tranquil sanctuary ritual. Combines concentrated essential plant extracts with an extended scalp reflexology massage to stimulate microcirculation and deeply hydrate stressed strands.",
-        image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/8834048/pexels-photo-8834048.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Dry or brittle hair", "Stressed scalps", "Mental relaxation"],
         whatToExpect: ["Customized ampoule selection", "15-minute scalp reflexology massage", "Micro-steam hydration", "Conditioning rinse"],
         faqs: [
@@ -324,7 +324,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "30 mins",
         shortDescription: "Intense lipid and moisture replenishment for instant elasticity and velvet softness.",
         fullDescription: "Concentrated lipid therapy to quench thirsty hair cuticles, ideal as an add-on to any haircut or blowout service.",
-        image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/39559306/pexels-photo-39559306.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Sun-exposed hair", "Dry ends", "Quick hair boost"],
         whatToExpect: ["Rich lipid cream application", "Warm towel wrap", "Detangling cool rinse"],
         faqs: [
@@ -340,7 +340,7 @@ export const serviceCategories: ServiceCategory[] = [
     shortName: "Skin & Facials",
     tagline: "Cellular renewal, non-invasive oxygen infusions, and barrier defense formulated for Chennai’s tropical urban climate.",
     description: "From clarifying hydro-extractions to restorative oxygen facials and Italian liposoluble waxing, our aesthetic rituals celebrate radiant, healthy skin in private temperature-controlled suites.",
-    heroImage: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.pexels.com/photos/37229301/pexels-photo-37229301.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=750",
     services: [
       {
         id: "cellular-oxygen-facial",
@@ -353,7 +353,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "60–75 mins",
         shortDescription: "Pressurized botanical oxygen dome infusion, enzymatic peeling, and lymphatic drainage for instant glass-skin radiance.",
         fullDescription: "A gentle yet transformative clinical facial specifically calibrated for Chennai's tropical humidity and UV exposure. Features deep double-cleansing, papaya enzymatic exfoliation, an extended lymphatic drainage face-and-neck massage, and pressurized 98% pure oxygen infusion paired with antioxidant vitamins C & E.",
-        image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/37229301/pexels-photo-37229301.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Dull or tired urban complexions", "Dehydrated skin lacking bounce", "Pre-event, festive, and bridal radiance", "Sensitive and sun-exposed skin"],
         whatToExpect: [
           "Dermal hydration and sebum analysis scan",
@@ -384,7 +384,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "75 mins",
         shortDescription: "Non-invasive vortex aqua-peel suction, blackhead extraction, and cryogenic ice-globe contouring.",
         fullDescription: "The premier treatment for congested pores and uneven texture. Utilizes gentle vortex liquid suction to painless vacuum blackheads and hard-water buildup from pores, followed by deep multi-molecular hyaluronic acid infusion and sub-zero cryogenic globe sculpting to tighten pores and reduce puffiness.",
-        image: "https://images.unsplash.com/photo-1512290900672-1f02377b5d1e?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/7446659/pexels-photo-7446659.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Enlarged pores and blackheads", "Excess T-zone oiliness from humidity", "Uneven skin texture", "Puffy facial contours"],
         whatToExpect: [
           "Ultrasonic skin scrubber exfoliation",
@@ -412,7 +412,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "45 mins",
         shortDescription: "Activated charcoal detoxification, warm botanical steam, and balancing tea-tree hydration.",
         fullDescription: "Formulated specifically to counteract Chennai's urban particulate pollution, traffic soot, and coastal sweat buildup. Clears deep impurities, calms active breakouts, and balances skin pH.",
-        image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/6978043/pexels-photo-6978043.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Urban professionals with daily commute exposure", "Breakout-prone and congested skin", "Monthly maintenance refresh"],
         whatToExpect: [
           "Purifying tea-tree cleansing wash",
@@ -436,7 +436,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "60 mins",
         shortDescription: "Freshly activated L-Ascorbic acid infusion to fade sun tan, pigmentation, and post-acne marks.",
         fullDescription: "A high-potency antioxidant ritual designed to combat hyperpigmentation and photo-damage caused by intense coastal UV rays. Leaves the complexion visibly luminous and even-toned.",
-        image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/36436447/pexels-photo-36436447.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Sun-tanned face and neck", "Uneven skin tone and dark spots", "Brides seeking luminous skin 2 weeks before events"],
         whatToExpect: [
           "Gentle brightening mandelic acid sweep",
@@ -459,7 +459,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "20 mins",
         shortDescription: "Geometric facial mapping, hypoallergenic cotton thread shaping, and soothing organic aloe vera seal.",
         fullDescription: "Elevate your brow silhouette with millimeter precision. We map your natural brow bone structure, contour clean lines with antibacterial combed cotton thread, and finish with cold organic aloe gel and optional vegetable tinting.",
-        image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/6135615/pexels-photo-6135615.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Natural arch enhancement", "Tidying unruly brows", "Gentle depilation without wax pulling"],
         whatToExpect: [
           "Symmetry consultation & caliper brow mapping",
@@ -481,7 +481,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "30–45 mins",
         shortDescription: "100% colophony-free Italian white chocolate liposoluble wax for painless, velvet-smooth skin.",
         fullDescription: "Experience gentle hair removal formulated for sensitive skin. RICA liposoluble wax adheres only to the hair shaft rather than live skin cells, virtually eliminating redness, irritation, and ingrown hairs.",
-        image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/3865548/pexels-photo-3865548.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Sensitive and easily irritated skin", "Ingrown-hair prone areas", "Silky full arms, underarms, and legs"],
         whatToExpect: [
           "Pre-wax cleansing and dry talc prep",
@@ -502,7 +502,7 @@ export const serviceCategories: ServiceCategory[] = [
     shortName: "Nails & Pedicure",
     tagline: "Holistic nail therapy, clinical hygiene, and immaculate polish artistry.",
     description: "Relaxing manicures and pedicures delivered in a serene setting with medical-grade sanitization and curated polish palettes.",
-    heroImage: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.pexels.com/photos/7066298/pexels-photo-7066298.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=750",
     services: [
       {
         id: "classic-pedicure",
@@ -515,7 +515,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "50 mins",
         shortDescription: "Aromatic foot soak, heel buffing, cuticle detail, and relaxing foot massage.",
         fullDescription: "Relieve tired urban feet with our signature soak in sea salts and essential oils. Includes pumice exfoliation, nail contouring, and a tension-melting massage.",
-        image: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/22668317/pexels-photo-22668317.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Dry heels", "Athletic or tired feet", "Routine hygiene maintenance"],
         whatToExpect: ["Dead sea salt soak", "Heel smoothing", "Cuticle nourishment", "Reflexology massage and polish"],
         faqs: [
@@ -533,7 +533,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "40 mins",
         shortDescription: "Gentle hand exfoliation, nail shaping, cuticle nourishment, and flawless polish.",
         fullDescription: "Nurturing care for hands and nails. Cleanses, shapes, and hydrates with organic shea butter and botanical oils.",
-        image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/4965824/pexels-photo-4965824.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Neat professional hands", "Cuticle conditioning"],
         whatToExpect: ["Nail shaping", "Warm bath soak", "Cuticle care", "Hand and arm massage", "Polish"],
         faqs: [
@@ -551,7 +551,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "45 mins",
         shortDescription: "Zero-dry-time LED cured colour lasting 2–3 weeks without chipping or dulling.",
         fullDescription: "Chip-resistant, ultra-glossy gel lacquer cured under LED light. Perfect for vacations and busy lifestyles.",
-        image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/16041439/pexels-photo-16041439.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Extended chip-free wear", "Vacation nails", "Ultra-gloss finish"],
         whatToExpect: ["Nail prep", "Base coat bond", "Two colour coats under LED", "Mirror topcoat"],
         faqs: [
@@ -569,7 +569,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "Varies by design",
         shortDescription: "Minimalist French tips, chrome glazes, geometric lines, or custom handcrafted motifs.",
         fullDescription: "From subtle Hailey Bieber glazed donut chrome to intricate hand-drawn botanical lines, our nail artists create personalized nail statements.",
-        image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/7066298/pexels-photo-7066298.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=800&h=500",
         suitableFor: ["Weddings", "Festive occasions", "Personal artistic expression"],
         whatToExpect: ["Design consultation", "Colour and chrome selection", "Precision brushwork and cure"],
         faqs: [
@@ -585,7 +585,7 @@ export const serviceCategories: ServiceCategory[] = [
     shortName: "Bridal",
     tagline: "Timeless grace, radiant artistry, and calm serenity for your most cherished moments.",
     description: "Dedicated bridal hair, makeup, and draping crafted to celebrate individual beauty while enduring the emotions and lighting of celebrations.",
-    heroImage: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.pexels.com/photos/12708653/pexels-photo-12708653.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=1200&h=750",
     services: [
       {
         id: "bridal-hair-makeup",
@@ -598,7 +598,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "180–240 mins",
         shortDescription: "High-definition, photography-ready makeup, intricate hair sculpting, and saree/dupatta draping.",
         fullDescription: "Our bespoke bridal service is designed around your unique vision, wedding trousseau, and lighting. We focus on skin-first radiance—flawless coverage that breathes, enhances your natural bone structure, and stays luminous from the first ceremony to the last photograph.",
-        image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/12708653/pexels-photo-12708653.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Traditional Muhurtham ceremonies", "Contemporary Christian or Muslim weddings", "Sangeet and Reception galas"],
         whatToExpect: [
           "Pre-wedding consultation and mood board alignment",
@@ -627,7 +627,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "120–150 mins",
         shortDescription: "Glamorous celebration hair, glowing party makeup, and precision styling for pre-wedding events.",
         fullDescription: "Striking balance between elegance and festive drama. Ideal for ring ceremonies, sangeet nights, and cocktail receptions.",
-        image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/20708571/pexels-photo-20708571.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Engagements", "Cocktail parties", "Bridesmaids & close family"],
         whatToExpect: ["Skin prep", "Long-wear makeup application", "Glamorous hair styling", "Accessory pinning"],
         faqs: [
@@ -645,7 +645,7 @@ export const serviceCategories: ServiceCategory[] = [
         duration: "90 mins",
         shortDescription: "Sophisticated event makeup and blowout or hair styling tailored for special occasions.",
         fullDescription: "Camera-ready elegance designed for dinners, milestone birthdays, and festival galas.",
-        image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1000&q=80",
+        image: "https://images.pexels.com/photos/28941551/pexels-photo-28941551.jpeg?auto=compress&cs=tinysrgb&fit=crop&crop=faces&w=800&h=500",
         suitableFor: ["Social galas", "Anniversaries", "Red carpet events"],
         whatToExpect: ["Skin base prep", "Eye makeup and lash application", "Lip colour lock", "Quick hair finish"],
         faqs: [

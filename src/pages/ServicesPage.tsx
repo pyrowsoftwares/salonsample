@@ -130,7 +130,7 @@ export function ServicesPage() {
             <div className="lg:col-span-5 relative">
               <div className="aspect-[4/3] sm:aspect-[16/11] rounded-3xl overflow-hidden border-2 border-[#34302D] shadow-2xl relative">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=80"
+                  src="https://images.pexels.com/photos/37229301/pexels-photo-37229301.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=825"
                   alt="Aurel Studio Dermal Aesthetics suite"
                   className="w-full h-full object-cover"
                 />
