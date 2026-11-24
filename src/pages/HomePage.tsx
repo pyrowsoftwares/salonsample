@@ -15,15 +15,15 @@ import {
   Sliders,
   ChevronDown,
 } from "lucide-react";
-import { salonConfig } from "@/data/salonConfig";
-import { serviceCategories } from "@/data/services";
-import { galleryItems } from "@/data/gallery";
-import { sampleTeamMembers } from "@/data/team";
-import { sampleTestimonials } from "@/data/testimonials";
-import { ImageWithFallback } from "@/components/ImageWithFallback";
-import { InteractiveDiagnostic } from "@/components/InteractiveDiagnostic";
-import { TransformationShowcase } from "@/components/TransformationShowcase";
-import { NeighborhoodBar } from "@/components/NeighborhoodBar";
+import { salonConfig } from "../data/salonConfig";
+import { serviceCategories } from "../data/services";
+import { galleryItems } from "../data/gallery";
+import { sampleTeamMembers } from "../data/team";
+import { sampleTestimonials } from "../data/testimonials";
+import { ImageWithFallback } from "../components/ImageWithFallback";
+import { InteractiveDiagnostic } from "../components/InteractiveDiagnostic";
+import { TransformationShowcase } from "../components/TransformationShowcase";
+import { NeighborhoodBar } from "../components/NeighborhoodBar";
 
 export function HomePage() {
   const featuredLooks = galleryItems.slice(0, 6);

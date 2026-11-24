@@ -9,8 +9,8 @@ import {
   Sparkles,
   Shield,
 } from "lucide-react";
-import { getServiceBySlug, serviceCategories } from "@/data/services";
-import { ImageWithFallback } from "@/components/ImageWithFallback";
+import { getServiceBySlug, serviceCategories } from "../data/services";
+import { ImageWithFallback } from "../components/ImageWithFallback";
 
 export function ServiceDetailPage() {
   const { slug } = useParams<{ slug: string }>();

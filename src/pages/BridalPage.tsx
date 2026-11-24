@@ -5,8 +5,8 @@ import {
   CheckCircle2,
   MessageCircle,
 } from "lucide-react";
-import { salonConfig } from "@/data/salonConfig";
-import { ImageWithFallback } from "@/components/ImageWithFallback";
+import { salonConfig } from "../data/salonConfig";
+import { ImageWithFallback } from "../components/ImageWithFallback";
 
 export function BridalPage() {
   const [formData, setFormData] = useState({

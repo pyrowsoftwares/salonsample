@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowUpRight, Sparkles, CheckCircle2, Shield, Heart } from "lucide-react";
-import { salonConfig } from "@/data/salonConfig";
-import { sampleTeamMembers } from "@/data/team";
-import { ImageWithFallback } from "@/components/ImageWithFallback";
+import { salonConfig } from "../data/salonConfig";
+import { sampleTeamMembers } from "../data/team";
+import { ImageWithFallback } from "../components/ImageWithFallback";
 
 export function AboutPage() {
   return (

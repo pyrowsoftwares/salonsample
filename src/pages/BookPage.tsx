@@ -8,8 +8,8 @@ import {
   MessageCircle,
   AlertCircle,
 } from "lucide-react";
-import { getAllServices } from "@/data/services";
-import { salonConfig } from "@/data/salonConfig";
+import { getAllServices } from "../data/services";
+import { salonConfig } from "../data/salonConfig";
 
 export function BookPage() {
   const [searchParams] = useSearchParams();

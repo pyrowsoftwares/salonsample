@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { salonConfig } from "@/data/salonConfig";
+import { salonConfig } from "../data/salonConfig";
 import { MapPin, Phone, Mail, Clock, ArrowUpRight, ShieldCheck } from "lucide-react";
 
 export function Footer() {

@@ -12,7 +12,7 @@ import {
   Send,
   Navigation,
 } from "lucide-react";
-import { salonConfig } from "@/data/salonConfig";
+import { salonConfig } from "../data/salonConfig";
 
 export function ContactPage() {
   const [form, setForm] = useState({

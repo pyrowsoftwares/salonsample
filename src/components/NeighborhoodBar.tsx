@@ -11,7 +11,7 @@ import {
   PhoneCall,
   MessageCircle,
 } from "lucide-react";
-import { salonConfig } from "@/data/salonConfig";
+import { salonConfig } from "../data/salonConfig";
 
 export function NeighborhoodBar() {
   return (

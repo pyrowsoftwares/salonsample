@@ -11,7 +11,7 @@ import {
   Split,
   Eye,
 } from "lucide-react";
-import { ImageWithFallback } from "@/components/ImageWithFallback";
+import { ImageWithFallback } from "./ImageWithFallback";
 
 interface TransformationCase {
   id: string;

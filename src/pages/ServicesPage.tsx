@@ -12,9 +12,9 @@ import {
   Heart,
   SlidersHorizontal,
 } from "lucide-react";
-import { serviceCategories, getAllServices } from "@/data/services";
-import { ImageWithFallback } from "@/components/ImageWithFallback";
-import { salonConfig } from "@/data/salonConfig";
+import { serviceCategories, getAllServices } from "../data/services";
+import { ImageWithFallback } from "../components/ImageWithFallback";
+import { salonConfig } from "../data/salonConfig";
 
 export function ServicesPage() {
   const [searchParams, setSearchParams] = useSearchParams();

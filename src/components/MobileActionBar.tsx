@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Calendar, MessageSquare, Phone } from "lucide-react";
-import { salonConfig } from "@/data/salonConfig";
+import { salonConfig } from "../data/salonConfig";
 
 export function MobileActionBar() {
   const whatsappUrl = `https://wa.me/${salonConfig.whatsappNumber}?text=${encodeURIComponent(

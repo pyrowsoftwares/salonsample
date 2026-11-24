@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Shield } from "lucide-react";
-import { salonConfig } from "@/data/salonConfig";
+import { salonConfig } from "../data/salonConfig";
 
 export function PrivacyPage() {
   return (

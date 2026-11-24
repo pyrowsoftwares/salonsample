@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Info, X } from "lucide-react";
-import { salonConfig } from "@/data/salonConfig";
+import { salonConfig } from "../data/salonConfig";
 
 export function PreviewBanner() {
   const [dismissed, setDismissed] = useState(false);

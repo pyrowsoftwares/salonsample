@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { X, ChevronLeft, ChevronRight, Sparkles, Filter, Maximize2 } from "lucide-react";
-import { galleryItems, GalleryItem } from "@/data/gallery";
-import { ImageWithFallback } from "@/components/ImageWithFallback";
+import { galleryItems, GalleryItem } from "../data/gallery";
+import { ImageWithFallback } from "../components/ImageWithFallback";
 
 export function GalleryPage() {
   const [activeCategory, setActiveCategory] = useState<string>("all");
